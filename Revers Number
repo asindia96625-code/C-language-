@@ -1,0 +1,15 @@
+  #include<stdio.h>
+void main(){
+    int a;
+    int reminder;
+    printf("enter any 4 digit number: ");
+    scanf("%d",&a);
+    
+    printf("your enterd number is:%d\n",a);
+    
+    while(a>0){
+    reminder = a % 10;
+    printf("%d",reminder);
+    a= a/10;
+    }
+}
